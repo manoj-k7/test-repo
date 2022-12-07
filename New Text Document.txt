@@ -1,0 +1,138 @@
+
+Amazon inspector
+Amazon Inspector helps to improve the security and compliance of applications 
+by running automated security assessments
+
+Amazon GuardDuty 
+Amazon GuardDuty is a service that provides intelligent threat detection for your AWS infrastructure 
+and resources. It identifies threats by continuously monitoring the network activity and account 
+behavior within your AWS environment
+
+
+AWS WAF 
+AWS WAF is a web application firewall that lets you monitor network requests that come into your web 
+applications.
+
+When a request comes into AWS WAF, it checks against the list of rules that you have configured in the 
+web ACL. If a request did not come from one of the blocked IP addresses, it allows access to the 
+application.
+
+AWS Shield
+AWS Shield is a service that protects applications against DDoS attacks. AWS Shield provides two levels 
+of protection: Standard and Advanced.
+
+
+AWS Key Management Service (AWS KMS) enables you to perform encryption operations through the 
+use of cryptographic keys. A cryptographic key is a random string of digits used for locking 
+(encrypting) and unlocking (decrypting) data. You can use AWS KMS to create, manage, and use 
+cryptographic keys. You can also control the use of keys across a wide range of services and in your 
+applications.
+
+AWS Artifact is a service that provides on-demand access to AWS security and compliance reports and 
+select online agreements. AWS Artifact consists of two main sections: AWS Artifact Agreements and 
+AWS Artifact Reports.
+
+print.sh
+#!/bin/bash
+var=manoj
+var2=Hassan
+
+echo "i am $var i am from $var2
+
+script to print the given file is file or dir or link or ddoesn't exist
+#!/bin/bash
+
+echo " enter the file name "
+while read file
+do
+if [ -f $name ]; then
+echo " this is file "
+elif [-d $name ]; then
+echo " this is directory "
+elif [-l $name ]; then
+echo " this is directory "
+else
+ echo " this file doesn't exists"
+fo
+
+add.sh
+
+#!/bin/bash
+var=$1
+var2=$2
+sum=$(($var+$var2))
+
+factorial for given number
+#!/bin/bash
+num=$1
+fact=1
+
+fact=`expr $fact \* $num `
+num=`expr $num + 1 `
+ echo " the given file factorial number is "$fact""
+
+
+biggest two numbers
+#!/bin/bash
+
+if [ $var - gt $2 ];then
+echo " $1 is greater than $2 "
+else [ $2 -gt $1 ];then
+echo " $2 is greaterthan $1 "
+fi
+
+
+positive or negative number
+
+#!/bin/bash
+var=$1
+
+if [ $1 -le 0 ]; then
+echo "this is negative number"
+elif [ $1 -gt 0]; then
+echo " this is positive number"
+else
+echo " the given number is neutral or zero"
+fi
+
+
+count.sh
+
+#!/bin/bash
+k=0
+while read file
+do
+k=`wc -c $filename`
+echo " $k"
+done
+
+#!/bin/bash
+Empty=`find . -type f -empty | ls`
+echo "$Empty"
+
+arn:aws:iam::698026336630:user/kiran arn:aws:iam::698026336630:role/S3role
+"Credentials": {
+        "AccessKeyId": "ASIA2FBM4UF3LCFIUNTN",
+        "SecretAccessKey": "co48xB4UpH36UydwcJ3/Hj95bPe/VI/UwZl4hGlj",
+        "SessionToken": "FwoGZXIvYXdzEP3//////////wEaDLHQ1Gcs3ZIYXeLjSCKpASnX63XMCQelvcdK6rK8c9I+e87ziL3+E9s9BMZpoz4u0PoJnqAeazSDQX8mLxEYDTwfZBgwOwdYYQtL2x
+MXsAnsAMBnbE0dvHYfWJiKqbyapwctu4QRyeozYB+m+Ib6nT5Jqf7AbVoY2tKGQ6t+hujAbCge4gnPGkRgx9kvwJaSt942+TuL8HRGAQVlWUGksEIBBFAjnr4DdoWItRzJvsojZ52jOdy9dpAovorrmQYyL
+cIPS9EMBypiQhTDqUdynhaBdXxTVJm2uezowHlYu1ZKa3NxFBOWUZYsHkGzjQ==",
+        "Expiration": "2022-10-03T12:19:26+00:00"
+    },
+    "AssumedRoleUser": {
+        "AssumedRoleId":"AROA2FBM4UF3ENLXYMD3A:ec2s3",
+        "Arn": "arn:aws:sts:698026336630:assumed-role/S3role/ec2s3"
+    }
+}
+
+Go to the Amazon Cognito console.If prompted,enter your AWS credentials.
+Choose Manage User Pools.
+Choose Create a User Pool.
+Enter a name for your user pool and choose Review defaults to save the name.
+On the Review page, choose Create pool.
+
+
+1,40000 -70k,
+1,75000
+10700
+27000
